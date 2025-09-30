@@ -35,8 +35,21 @@ header h1 {
   padding: 2rem 1rem;
 }
 
+/* simple top nav */
+.topnav { display:flex; gap:1rem; justify-content:center; padding:1rem; }
+.topnav a { color:#bfbff8; text-decoration:none; }
+.topnav a:hover { text-decoration:underline; }
+
+/* footer */
 footer {
-  margin-top: 2rem;
+  max-width: 960px;
+  margin: 3rem auto 2rem;
   padding: 1rem;
   background: #111;
+  text-align: center;
+  color: #bfbff8;
+  opacity: .9;
+  font-size: .9rem;
 }
+footer a { color: #bfbff8; }
+
